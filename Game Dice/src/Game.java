@@ -15,10 +15,11 @@ import java.util.*;
 	      // generate the die roll 
 	      Random randGen = new Random();
 	      int dieNum  =  randGen.nextInt(6) + 1;
-	      System.out.println("The die is a " + dieNum);
+	      int dieNum2  =  randGen.nextInt(6) + 1;
+	      System.out.println("The die are " + dieNum + " and " + dieNum2 );
 	   
 	      // write the rest of your code below
-	        
+	      
 	   }
 
 }
