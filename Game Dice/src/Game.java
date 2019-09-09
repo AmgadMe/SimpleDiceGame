@@ -15,10 +15,29 @@ import java.util.*;
 	      // generate the die roll 
 	      Random randGen = new Random();
 	      int dieNum  =  randGen.nextInt(6) + 1;
-	      int dieNum2  =  randGen.nextInt(6) + 1;
-	      System.out.println("The die are " + dieNum + " and " + dieNum2 );
+	      //int dieNum2  =  randGen.nextInt(6) + 1;
+	      System.out.println("The die is a " + dieNum);
+	      
 	   
 	      // write the rest of your code below
+	      if(dieNum == enteredNum) {
+	    	  enteredBet*= 10;
+	    	System.out.println("You Win "+ enteredBet + "dollars");  
+	      }
+	      else {System.out.println("sorry you lose");}
+	      
+	      
+	  
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
 	      
 	   }
 
